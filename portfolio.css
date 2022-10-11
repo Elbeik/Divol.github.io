@@ -1,0 +1,74 @@
+
+a
+{
+    text-decoration: none;
+    color: #212529;
+    transition: all ease-in-out 0.2s;
+}
+.navbar {
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+.pp-text-center p
+{
+    color: aliceblue;
+}
+.pp-text-center a
+{
+    color: aliceblue;
+    font-weight: bold;
+}
+.pp-text-center h2
+{
+    font-size: 3.5rem;
+    color: aliceblue;
+    padding-bottom: 15px;
+
+}
+.p-bg-img-profile
+{
+    
+    height: 50vh;
+}
+.p-bg-color
+{
+    height: 50vh;
+}
+.carousel-indicators [data-bs-target]
+{
+    width: 10px;
+    height: 10px;
+    background-color: blue;
+    border: solid 1px blue;
+    
+}
+.pp-project-info ul 
+{
+    margin: 0;
+    padding: 0;
+    line-height: 2rem;
+    list-style: none;   
+}
+.pp-project-text-info
+{
+    background-color: white;
+    box-shadow: 0px 0 30px rgb(78 78 78 / 8%);
+}
+
+.pp-project-text-info a:hover
+{
+    color: #2085eb !important;
+}
+.pp-project-text-info h3
+{
+    position: relative;
+}
+.pp-project-text-info h3::after
+{
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 0.5px;
+    background-color: #b5bebe;
+    top: 100%;
+    left: 0%;
+}
